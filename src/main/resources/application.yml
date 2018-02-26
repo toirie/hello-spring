@@ -1,0 +1,11 @@
+spring:
+  profiles.active: default
+
+thymeleaf.mode: HTML
+
+datasource.user: test
+datasource.password :
+datasource.url : jdbc:h2:./src/test/data/test;MODE=MYSQL
+datasource.driver.class.name : org.h2.Driver
+datasource.idle : 200
+datasource.pool.size : 1
